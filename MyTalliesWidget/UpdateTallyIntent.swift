@@ -13,9 +13,9 @@ struct UpdateTallyIntent: AppIntent {
     static var title: LocalizedStringResource = LocalizedStringResource("Update first tally")
     static var description: IntentDescription? = IntentDescription("Tap the tally once to increment")
     
-    func perform() async throws -> some IntentResult {
+    func perform() async throws -> some ProvidesDialog {
         let update = await updateTally()
-        return .result(value: update)
+        return .result(dialog: IntentDialog("Update first Tally to \(update)"))
     }
     
     @MainActor func updateTally() -> Int{

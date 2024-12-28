@@ -10,6 +10,7 @@ import SwiftData
 import WidgetKit
 
 struct TallySelectionView: View {
+    @Environment(Router.self) var router
     @Query(sort:\Tally.name) var tallies: [Tally]
     @State private var selectedTally: Tally?
     @Environment(\.modelContext) var context
@@ -69,6 +70,7 @@ struct TallySelectionView: View {
                                 if !tallies.isEmpty {
                                     self.selectedTally = tallies.first!
                                 }
+                                MyTalliesShortCuts.updateAppShortcutParameters()
                             }
                         } label: {
                             Image(systemName: "trash")
@@ -97,10 +99,16 @@ struct TallySelectionView: View {
                     id = UUID()
                 }
             }
+            .onChange(of: router.tallyName) { oldValue, newValue in
+                if newValue != selectedTally?.name {
+                    selectedTally = tallies.first { $0.name == newValue }
+                }
+            }
         }
     }
 }
 
 #Preview(traits: .mockData) {
     TallySelectionView()
+        .environment(Router())
 }

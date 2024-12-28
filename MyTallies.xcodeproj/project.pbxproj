@@ -7,6 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BF4FDA322D1FD7EB000F62EA /* TallyQuery.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF4FDA312D1FD7EB000F62EA /* TallyQuery.swift */; };
+		BF4FDA332D1FD843000F62EA /* TallyQuery.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF4FDA312D1FD7EB000F62EA /* TallyQuery.swift */; };
+		BF4FDA352D1FD882000F62EA /* TallyEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF4FDA342D1FD882000F62EA /* TallyEntity.swift */; };
+		BF4FDA362D1FD8A8000F62EA /* TallyEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF4FDA342D1FD882000F62EA /* TallyEntity.swift */; };
+		BF4FDA382D1FD9BB000F62EA /* TallyQuery+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF4FDA372D1FD9BB000F62EA /* TallyQuery+Extension.swift */; };
+		BF4FDA3A2D1FDA2C000F62EA /* UpdateNamedTallyIntent.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF4FDA392D1FDA2C000F62EA /* UpdateNamedTallyIntent.swift */; };
+		BF4FDA3C2D1FE466000F62EA /* TallyUpdateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF4FDA3B2D1FE466000F62EA /* TallyUpdateView.swift */; };
+		BFC3DA8F2D1FACFA004EF48D /* FirstTallyWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFC3DA8A2D1FACFA004EF48D /* FirstTallyWidget.swift */; };
+		BFC3DA902D1FACFA004EF48D /* MyTalliesWidgetBundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFC3DA8C2D1FACFA004EF48D /* MyTalliesWidgetBundle.swift */; };
+		BFC3DA912D1FACFA004EF48D /* UpdateTallyIntent.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFC3DA8D2D1FACFA004EF48D /* UpdateTallyIntent.swift */; };
+		BFC3DA922D1FACFA004EF48D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BFC3DA892D1FACFA004EF48D /* Assets.xcassets */; };
+		BFC3DA952D1FAD28004EF48D /* ConfigurationAppIntent.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFC3DA942D1FAD28004EF48D /* ConfigurationAppIntent.swift */; };
+		BFC3DA972D1FAD73004EF48D /* ConfigurableWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFC3DA962D1FAD73004EF48D /* ConfigurableWidget.swift */; };
+		BFC3DA992D1FBD8C004EF48D /* ConfigurableUpdateIntent.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFC3DA982D1FBD8C004EF48D /* ConfigurableUpdateIntent.swift */; };
+		BFC3DA9B2D1FCDAD004EF48D /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFC3DA9A2D1FCDAD004EF48D /* Router.swift */; };
+		BFC3DA9E2D1FD179004EF48D /* MyTalliesShortCuts.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFC3DA9D2D1FD179004EF48D /* MyTalliesShortCuts.swift */; };
+		BFC3DA9F2D1FD23A004EF48D /* UpdateTallyIntent.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFC3DA8D2D1FACFA004EF48D /* UpdateTallyIntent.swift */; };
 		BFDB033A2D1CFF6C009BE07B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BFDB03342D1CFF6C009BE07B /* Preview Assets.xcassets */; };
 		BFDB033B2D1CFF6C009BE07B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BFDB03362D1CFF6C009BE07B /* Assets.xcassets */; };
 		BFDB033C2D1CFF6C009BE07B /* TallySelectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFDB03372D1CFF6C009BE07B /* TallySelectionView.swift */; };
@@ -48,6 +65,21 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		BF4FDA312D1FD7EB000F62EA /* TallyQuery.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TallyQuery.swift; sourceTree = "<group>"; };
+		BF4FDA342D1FD882000F62EA /* TallyEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TallyEntity.swift; sourceTree = "<group>"; };
+		BF4FDA372D1FD9BB000F62EA /* TallyQuery+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TallyQuery+Extension.swift"; sourceTree = "<group>"; };
+		BF4FDA392D1FDA2C000F62EA /* UpdateNamedTallyIntent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdateNamedTallyIntent.swift; sourceTree = "<group>"; };
+		BF4FDA3B2D1FE466000F62EA /* TallyUpdateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TallyUpdateView.swift; sourceTree = "<group>"; };
+		BFC3DA892D1FACFA004EF48D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BFC3DA8A2D1FACFA004EF48D /* FirstTallyWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstTallyWidget.swift; sourceTree = "<group>"; };
+		BFC3DA8B2D1FACFA004EF48D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BFC3DA8C2D1FACFA004EF48D /* MyTalliesWidgetBundle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTalliesWidgetBundle.swift; sourceTree = "<group>"; };
+		BFC3DA8D2D1FACFA004EF48D /* UpdateTallyIntent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdateTallyIntent.swift; sourceTree = "<group>"; };
+		BFC3DA942D1FAD28004EF48D /* ConfigurationAppIntent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfigurationAppIntent.swift; sourceTree = "<group>"; };
+		BFC3DA962D1FAD73004EF48D /* ConfigurableWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfigurableWidget.swift; sourceTree = "<group>"; };
+		BFC3DA982D1FBD8C004EF48D /* ConfigurableUpdateIntent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfigurableUpdateIntent.swift; sourceTree = "<group>"; };
+		BFC3DA9A2D1FCDAD004EF48D /* Router.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Router.swift; sourceTree = "<group>"; };
+		BFC3DA9D2D1FD179004EF48D /* MyTalliesShortCuts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTalliesShortCuts.swift; sourceTree = "<group>"; };
 		BFDB03232D1CFF60009BE07B /* MyTallies.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyTallies.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BFDB03342D1CFF6C009BE07B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		BFDB03362D1CFF6C009BE07B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -64,27 +96,6 @@
 		BFDB03512D1D2E2F009BE07B /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
 		BFDB03632D1D2EA4009BE07B /* MyTalliesWidgetExtension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MyTalliesWidgetExtension.entitlements; sourceTree = "<group>"; };
 /* End PBXFileReference section */
-
-/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		BFDB035E2D1D2E31009BE07B /* Exceptions for "MyTalliesWidget" folder in "MyTalliesWidgetExtension" target */ = {
-			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
-			membershipExceptions = (
-				Info.plist,
-			);
-			target = BFDB034C2D1D2E2F009BE07B /* MyTalliesWidgetExtension */;
-		};
-/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
-
-/* Begin PBXFileSystemSynchronizedRootGroup section */
-		BFDB03532D1D2E2F009BE07B /* MyTalliesWidget */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			exceptions = (
-				BFDB035E2D1D2E31009BE07B /* Exceptions for "MyTalliesWidget" folder in "MyTalliesWidgetExtension" target */,
-			);
-			path = MyTalliesWidget;
-			sourceTree = "<group>";
-		};
-/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		BFDB03202D1CFF60009BE07B /* Frameworks */ = {
@@ -106,12 +117,48 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		BFC3DA882D1FACFA004EF48D /* ConfigurableWidget */ = {
+			isa = PBXGroup;
+			children = (
+				BF4FDA342D1FD882000F62EA /* TallyEntity.swift */,
+				BF4FDA312D1FD7EB000F62EA /* TallyQuery.swift */,
+				BF4FDA372D1FD9BB000F62EA /* TallyQuery+Extension.swift */,
+				BFC3DA962D1FAD73004EF48D /* ConfigurableWidget.swift */,
+				BFC3DA942D1FAD28004EF48D /* ConfigurationAppIntent.swift */,
+				BFC3DA982D1FBD8C004EF48D /* ConfigurableUpdateIntent.swift */,
+			);
+			path = ConfigurableWidget;
+			sourceTree = "<group>";
+		};
+		BFC3DA8E2D1FACFA004EF48D /* MyTalliesWidget */ = {
+			isa = PBXGroup;
+			children = (
+				BFC3DA882D1FACFA004EF48D /* ConfigurableWidget */,
+				BFC3DA8A2D1FACFA004EF48D /* FirstTallyWidget.swift */,
+				BFC3DA8C2D1FACFA004EF48D /* MyTalliesWidgetBundle.swift */,
+				BFC3DA8D2D1FACFA004EF48D /* UpdateTallyIntent.swift */,
+				BFC3DA8B2D1FACFA004EF48D /* Info.plist */,
+				BFC3DA892D1FACFA004EF48D /* Assets.xcassets */,
+			);
+			path = MyTalliesWidget;
+			sourceTree = "<group>";
+		};
+		BFC3DA9C2D1FD13C004EF48D /* Siri Shortcuts */ = {
+			isa = PBXGroup;
+			children = (
+				BFC3DA9D2D1FD179004EF48D /* MyTalliesShortCuts.swift */,
+				BF4FDA392D1FDA2C000F62EA /* UpdateNamedTallyIntent.swift */,
+				BF4FDA3B2D1FE466000F62EA /* TallyUpdateView.swift */,
+			);
+			path = "Siri Shortcuts";
+			sourceTree = "<group>";
+		};
 		BFDB031A2D1CFF60009BE07B = {
 			isa = PBXGroup;
 			children = (
 				BFDB03632D1D2EA4009BE07B /* MyTalliesWidgetExtension.entitlements */,
 				BFDB03392D1CFF6C009BE07B /* MyTallies */,
-				BFDB03532D1D2E2F009BE07B /* MyTalliesWidget */,
+				BFC3DA8E2D1FACFA004EF48D /* MyTalliesWidget */,
 				BFDB034E2D1D2E2F009BE07B /* Frameworks */,
 				BFDB03242D1CFF60009BE07B /* Products */,
 			);
@@ -138,12 +185,14 @@
 		BFDB03392D1CFF6C009BE07B /* MyTallies */ = {
 			isa = PBXGroup;
 			children = (
+				BFC3DA9C2D1FD13C004EF48D /* Siri Shortcuts */,
 				BFDB03482D1D2D43009BE07B /* MyTallies.entitlements */,
 				BFDB03402D1D0385009BE07B /* Tally.swift */,
 				BFDB03372D1CFF6C009BE07B /* TallySelectionView.swift */,
 				BFDB03442D1D0944009BE07B /* SingleTallyView.swift */,
 				BFDB03462D1D13FF009BE07B /* NewTallyView.swift */,
 				BFDB03382D1CFF6C009BE07B /* MyTalliesApp.swift */,
+				BFC3DA9A2D1FCDAD004EF48D /* Router.swift */,
 				BFDB033E2D1D003B009BE07B /* Launch Screen.storyboard */,
 				BFDB03362D1CFF6C009BE07B /* Assets.xcassets */,
 				BFDB03352D1CFF6C009BE07B /* Preview Content */,
@@ -195,9 +244,6 @@
 			buildRules = (
 			);
 			dependencies = (
-			);
-			fileSystemSynchronizedGroups = (
-				BFDB03532D1D2E2F009BE07B /* MyTalliesWidget */,
 			);
 			name = MyTalliesWidgetExtension;
 			packageProductDependencies = (
@@ -259,6 +305,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BFC3DA922D1FACFA004EF48D /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -269,12 +316,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BF4FDA362D1FD8A8000F62EA /* TallyEntity.swift in Sources */,
+				BFC3DA9F2D1FD23A004EF48D /* UpdateTallyIntent.swift in Sources */,
 				BFDB033C2D1CFF6C009BE07B /* TallySelectionView.swift in Sources */,
 				BFDB03432D1D049D009BE07B /* MockData.swift in Sources */,
 				BFDB03472D1D13FF009BE07B /* NewTallyView.swift in Sources */,
+				BFC3DA9B2D1FCDAD004EF48D /* Router.swift in Sources */,
 				BFDB03412D1D0385009BE07B /* Tally.swift in Sources */,
 				BFDB033D2D1CFF6C009BE07B /* MyTalliesApp.swift in Sources */,
+				BF4FDA3C2D1FE466000F62EA /* TallyUpdateView.swift in Sources */,
+				BF4FDA332D1FD843000F62EA /* TallyQuery.swift in Sources */,
+				BFC3DA9E2D1FD179004EF48D /* MyTalliesShortCuts.swift in Sources */,
 				BFDB03452D1D0944009BE07B /* SingleTallyView.swift in Sources */,
+				BF4FDA3A2D1FDA2C000F62EA /* UpdateNamedTallyIntent.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,8 +336,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BFC3DA8F2D1FACFA004EF48D /* FirstTallyWidget.swift in Sources */,
+				BFC3DA902D1FACFA004EF48D /* MyTalliesWidgetBundle.swift in Sources */,
+				BF4FDA322D1FD7EB000F62EA /* TallyQuery.swift in Sources */,
+				BF4FDA352D1FD882000F62EA /* TallyEntity.swift in Sources */,
+				BFC3DA972D1FAD73004EF48D /* ConfigurableWidget.swift in Sources */,
+				BFC3DA952D1FAD28004EF48D /* ConfigurationAppIntent.swift in Sources */,
+				BFC3DA912D1FACFA004EF48D /* UpdateTallyIntent.swift in Sources */,
 				BFDB03642D1D32E3009BE07B /* Tally.swift in Sources */,
+				BF4FDA382D1FD9BB000F62EA /* TallyQuery+Extension.swift in Sources */,
 				BFDB03652D1D3968009BE07B /* SingleTallyView.swift in Sources */,
+				BFC3DA992D1FBD8C004EF48D /* ConfigurableUpdateIntent.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -432,6 +495,7 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = l;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -462,6 +526,7 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = l;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
