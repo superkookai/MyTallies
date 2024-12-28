@@ -36,7 +36,7 @@ struct TallySelectionView: View {
                     .padding()
                     
                     if selectedTally != nil {
-                        SingleTallyView(size: 100, tally: $selectedTally)
+                        SingleTallyView(size: 100, tally: selectedTally!)
                         
                         Button {
                             withAnimation {

@@ -61,7 +61,7 @@ struct FirstTallyWidgetEntryView : View {
         } else {
             VStack {
                 Button(intent: UpdateTallyIntent()) {
-                    SingleTallyView(size: 60, tally: .constant(entry.tallies.first))
+                    SingleTallyView(size: 60, tally: entry.tallies.first!)
                 }
                 .buttonStyle(.plain)
                 

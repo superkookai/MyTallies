@@ -59,7 +59,7 @@ struct ConfigurableWidgetEntryView : View {
                     
                     VStack {
                         Button(intent: ConfigurableUpdateIntent(name: entry.selectedTally!.name)) {
-                            SingleTallyView(size: 60, tally: .constant(entry.selectedTally))
+                            SingleTallyView(size: 60, tally: entry.selectedTally!)
                         }
                         .buttonStyle(.plain)
                         
