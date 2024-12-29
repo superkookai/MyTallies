@@ -19,6 +19,14 @@
 		BF0803AC2D20E3FF0059FA55 /* TallyManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF0803AB2D20E3FF0059FA55 /* TallyManager.swift */; };
 		BF0803AE2D20E6C10059FA55 /* SingleTallyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF0803AD2D20E6C10059FA55 /* SingleTallyView.swift */; };
 		BF0803B02D20EB790059FA55 /* MyTallyListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF0803AF2D20EB790059FA55 /* MyTallyListView.swift */; };
+		BF0803B62D2104B60059FA55 /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFDB034F2D1D2E2F009BE07B /* WidgetKit.framework */; };
+		BF0803B72D2104B60059FA55 /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFDB03512D1D2E2F009BE07B /* SwiftUI.framework */; };
+		BF0803C02D2104B80059FA55 /* MyTalliesWatch ComplicationExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = BF0803B52D2104B60059FA55 /* MyTalliesWatch ComplicationExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		BF0803CA2D2104D40059FA55 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF0803C62D2104D40059FA55 /* Assets.xcassets */; };
+		BF0803CC2D2104D40059FA55 /* MyTalliesWatch_Complication.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF0803C82D2104D40059FA55 /* MyTalliesWatch_Complication.swift */; };
+		BF0803CD2D2105120059FA55 /* WatchTally.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF0803A82D20E2FC0059FA55 /* WatchTally.swift */; };
+		BF0803D12D2109120059FA55 /* SharedTally.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF0803D02D2109120059FA55 /* SharedTally.swift */; };
+		BF0803D22D2109120059FA55 /* SharedTally.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF0803D02D2109120059FA55 /* SharedTally.swift */; };
 		BF4FDA322D1FD7EB000F62EA /* TallyQuery.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF4FDA312D1FD7EB000F62EA /* TallyQuery.swift */; };
 		BF4FDA332D1FD843000F62EA /* TallyQuery.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF4FDA312D1FD7EB000F62EA /* TallyQuery.swift */; };
 		BF4FDA352D1FD882000F62EA /* TallyEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF4FDA342D1FD882000F62EA /* TallyEntity.swift */; };
@@ -60,6 +68,13 @@
 			remoteGlobalIDString = BF0803872D20DA5C0059FA55;
 			remoteInfo = "MyTalliesWatch Watch App";
 		};
+		BF0803BE2D2104B80059FA55 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDB031B2D1CFF60009BE07B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BF0803B42D2104B60059FA55;
+			remoteInfo = "MyTalliesWatch ComplicationExtension";
+		};
 		BFDB035B2D1D2E31009BE07B /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDB031B2D1CFF60009BE07B /* Project object */;
@@ -79,6 +94,17 @@
 				BF0803952D20DA5E0059FA55 /* MyTalliesWatch Watch App.app in Embed Watch Content */,
 			);
 			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF0803C12D2104B80059FA55 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				BF0803C02D2104B80059FA55 /* MyTalliesWatch ComplicationExtension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		BFDB03622D1D2E31009BE07B /* Embed Foundation Extensions */ = {
@@ -106,6 +132,13 @@
 		BF0803AB2D20E3FF0059FA55 /* TallyManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TallyManager.swift; sourceTree = "<group>"; };
 		BF0803AD2D20E6C10059FA55 /* SingleTallyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingleTallyView.swift; sourceTree = "<group>"; };
 		BF0803AF2D20EB790059FA55 /* MyTallyListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTallyListView.swift; sourceTree = "<group>"; };
+		BF0803B52D2104B60059FA55 /* MyTalliesWatch ComplicationExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "MyTalliesWatch ComplicationExtension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF0803C62D2104D40059FA55 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BF0803C72D2104D40059FA55 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BF0803C82D2104D40059FA55 /* MyTalliesWatch_Complication.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTalliesWatch_Complication.swift; sourceTree = "<group>"; };
+		BF0803CE2D21089E0059FA55 /* MyTalliesWatch Watch App.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "MyTalliesWatch Watch App.entitlements"; sourceTree = "<group>"; };
+		BF0803CF2D2108BC0059FA55 /* MyTalliesWatch ComplicationExtension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "MyTalliesWatch ComplicationExtension.entitlements"; sourceTree = "<group>"; };
+		BF0803D02D2109120059FA55 /* SharedTally.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SharedTally.swift; sourceTree = "<group>"; };
 		BF4FDA312D1FD7EB000F62EA /* TallyQuery.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TallyQuery.swift; sourceTree = "<group>"; };
 		BF4FDA342D1FD882000F62EA /* TallyEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TallyEntity.swift; sourceTree = "<group>"; };
 		BF4FDA372D1FD9BB000F62EA /* TallyQuery+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TallyQuery+Extension.swift"; sourceTree = "<group>"; };
@@ -146,6 +179,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		BF0803B22D2104B60059FA55 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF0803B72D2104B60059FA55 /* SwiftUI.framework in Frameworks */,
+				BF0803B62D2104B60059FA55 /* WidgetKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		BFDB03202D1CFF60009BE07B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -176,6 +218,7 @@
 		BF08039F2D20DAC20059FA55 /* MyTalliesWatch Watch App */ = {
 			isa = PBXGroup;
 			children = (
+				BF0803CE2D21089E0059FA55 /* MyTalliesWatch Watch App.entitlements */,
 				BF08039D2D20DAC20059FA55 /* TallyUpdateView.swift */,
 				BF0803AD2D20E6C10059FA55 /* SingleTallyView.swift */,
 				BF0803AF2D20EB790059FA55 /* MyTallyListView.swift */,
@@ -183,10 +226,21 @@
 				BF0803A62D20DF0D0059FA55 /* watchOSConnectivity.swift */,
 				BF0803A82D20E2FC0059FA55 /* WatchTally.swift */,
 				BF0803AB2D20E3FF0059FA55 /* TallyManager.swift */,
+				BF0803D02D2109120059FA55 /* SharedTally.swift */,
 				BF08039C2D20DAC20059FA55 /* Assets.xcassets */,
 				BF08039B2D20DAC20059FA55 /* Preview Content */,
 			);
 			path = "MyTalliesWatch Watch App";
+			sourceTree = "<group>";
+		};
+		BF0803C92D2104D40059FA55 /* MyTalliesWatch Complication */ = {
+			isa = PBXGroup;
+			children = (
+				BF0803C82D2104D40059FA55 /* MyTalliesWatch_Complication.swift */,
+				BF0803C62D2104D40059FA55 /* Assets.xcassets */,
+				BF0803C72D2104D40059FA55 /* Info.plist */,
+			);
+			path = "MyTalliesWatch Complication";
 			sourceTree = "<group>";
 		};
 		BFC3DA882D1FACFA004EF48D /* ConfigurableWidget */ = {
@@ -228,10 +282,12 @@
 		BFDB031A2D1CFF60009BE07B = {
 			isa = PBXGroup;
 			children = (
+				BF0803CF2D2108BC0059FA55 /* MyTalliesWatch ComplicationExtension.entitlements */,
 				BFDB03632D1D2EA4009BE07B /* MyTalliesWidgetExtension.entitlements */,
 				BFDB03392D1CFF6C009BE07B /* MyTallies */,
 				BFC3DA8E2D1FACFA004EF48D /* MyTalliesWidget */,
 				BF08039F2D20DAC20059FA55 /* MyTalliesWatch Watch App */,
+				BF0803C92D2104D40059FA55 /* MyTalliesWatch Complication */,
 				BFDB034E2D1D2E2F009BE07B /* Frameworks */,
 				BFDB03242D1CFF60009BE07B /* Products */,
 			);
@@ -243,6 +299,7 @@
 				BFDB03232D1CFF60009BE07B /* MyTallies.app */,
 				BFDB034D2D1D2E2F009BE07B /* MyTalliesWidgetExtension.appex */,
 				BF0803882D20DA5C0059FA55 /* MyTalliesWatch Watch App.app */,
+				BF0803B52D2104B60059FA55 /* MyTalliesWatch ComplicationExtension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -294,10 +351,12 @@
 				BF0803842D20DA5C0059FA55 /* Sources */,
 				BF0803852D20DA5C0059FA55 /* Frameworks */,
 				BF0803862D20DA5C0059FA55 /* Resources */,
+				BF0803C12D2104B80059FA55 /* Embed Foundation Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				BF0803BF2D2104B80059FA55 /* PBXTargetDependency */,
 			);
 			name = "MyTalliesWatch Watch App";
 			packageProductDependencies = (
@@ -305,6 +364,25 @@
 			productName = "MyTalliesWatch Watch App";
 			productReference = BF0803882D20DA5C0059FA55 /* MyTalliesWatch Watch App.app */;
 			productType = "com.apple.product-type.application";
+		};
+		BF0803B42D2104B60059FA55 /* MyTalliesWatch ComplicationExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BF0803C52D2104B80059FA55 /* Build configuration list for PBXNativeTarget "MyTalliesWatch ComplicationExtension" */;
+			buildPhases = (
+				BF0803B12D2104B60059FA55 /* Sources */,
+				BF0803B22D2104B60059FA55 /* Frameworks */,
+				BF0803B32D2104B60059FA55 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "MyTalliesWatch ComplicationExtension";
+			packageProductDependencies = (
+			);
+			productName = "MyTalliesWatch ComplicationExtension";
+			productReference = BF0803B52D2104B60059FA55 /* MyTalliesWatch ComplicationExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
 		};
 		BFDB03222D1CFF60009BE07B /* MyTallies */ = {
 			isa = PBXNativeTarget;
@@ -361,6 +439,9 @@
 					BF0803872D20DA5C0059FA55 = {
 						CreatedOnToolsVersion = 16.1;
 					};
+					BF0803B42D2104B60059FA55 = {
+						CreatedOnToolsVersion = 16.1;
+					};
 					BFDB03222D1CFF60009BE07B = {
 						CreatedOnToolsVersion = 16.1;
 					};
@@ -386,6 +467,7 @@
 				BFDB03222D1CFF60009BE07B /* MyTallies */,
 				BFDB034C2D1D2E2F009BE07B /* MyTalliesWidgetExtension */,
 				BF0803872D20DA5C0059FA55 /* MyTalliesWatch Watch App */,
+				BF0803B42D2104B60059FA55 /* MyTalliesWatch ComplicationExtension */,
 			);
 		};
 /* End PBXProject section */
@@ -397,6 +479,14 @@
 			files = (
 				BF0803A22D20DAC20059FA55 /* Preview Assets.xcassets in Resources */,
 				BF0803A32D20DAC20059FA55 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF0803B32D2104B60059FA55 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF0803CA2D2104D40059FA55 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -426,12 +516,23 @@
 			buildActionMask = 2147483647;
 			files = (
 				BF0803A92D20E2FC0059FA55 /* WatchTally.swift in Sources */,
+				BF0803D12D2109120059FA55 /* SharedTally.swift in Sources */,
 				BF0803A02D20DAC20059FA55 /* TallyUpdateView.swift in Sources */,
 				BF0803A72D20DF0D0059FA55 /* watchOSConnectivity.swift in Sources */,
 				BF0803B02D20EB790059FA55 /* MyTallyListView.swift in Sources */,
 				BF0803AE2D20E6C10059FA55 /* SingleTallyView.swift in Sources */,
 				BF0803AC2D20E3FF0059FA55 /* TallyManager.swift in Sources */,
 				BF0803A12D20DAC20059FA55 /* MyTalliesWatchApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF0803B12D2104B60059FA55 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF0803CD2D2105120059FA55 /* WatchTally.swift in Sources */,
+				BF0803CC2D2104D40059FA55 /* MyTalliesWatch_Complication.swift in Sources */,
+				BF0803D22D2109120059FA55 /* SharedTally.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -483,6 +584,11 @@
 			target = BF0803872D20DA5C0059FA55 /* MyTalliesWatch Watch App */;
 			targetProxy = BF0803932D20DA5E0059FA55 /* PBXContainerItemProxy */;
 		};
+		BF0803BF2D2104B80059FA55 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BF0803B42D2104B60059FA55 /* MyTalliesWatch ComplicationExtension */;
+			targetProxy = BF0803BE2D2104B80059FA55 /* PBXContainerItemProxy */;
+		};
 		BFDB035C2D1D2E31009BE07B /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = BFDB034C2D1D2E2F009BE07B /* MyTalliesWidgetExtension */;
@@ -496,6 +602,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "MyTalliesWatch Watch App/MyTalliesWatch Watch App.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"MyTalliesWatch Watch App/Preview Content\"";
@@ -526,6 +633,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "MyTalliesWatch Watch App/MyTalliesWatch Watch App.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"MyTalliesWatch Watch App/Preview Content\"";
@@ -541,6 +649,68 @@
 				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.superkookai.MyTallies.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 11.1;
+			};
+			name = Release;
+		};
+		BF0803C22D2104B80059FA55 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_ENTITLEMENTS = "MyTalliesWatch ComplicationExtension.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = T9MD4URZFH;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "MyTalliesWatch Complication/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "MyTalliesWatch Complication";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.superkookai.MyTallies.watchkitapp.MyTalliesWatch-Complication";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 11.1;
+			};
+			name = Debug;
+		};
+		BF0803C32D2104B80059FA55 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_ENTITLEMENTS = "MyTalliesWatch ComplicationExtension.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = T9MD4URZFH;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "MyTalliesWatch Complication/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "MyTalliesWatch Complication";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.superkookai.MyTallies.watchkitapp.MyTalliesWatch-Complication";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
@@ -798,6 +968,15 @@
 			buildConfigurations = (
 				BF0803972D20DA5E0059FA55 /* Debug */,
 				BF0803982D20DA5E0059FA55 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BF0803C52D2104B80059FA55 /* Build configuration list for PBXNativeTarget "MyTalliesWatch ComplicationExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF0803C22D2104B80059FA55 /* Debug */,
+				BF0803C32D2104B80059FA55 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
